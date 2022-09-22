@@ -107,6 +107,7 @@ body {
     color: #ffffff;
     font-size: 24px;
     font-weight: 300;
+    position: relative;
 }
 
 h1 {
@@ -169,4 +170,9 @@ h3 {
     width: 350px;
 }
 
+
+.mig {
+    position: absolute;
+    width: 140px;
+}
 
