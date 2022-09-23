@@ -217,4 +217,10 @@ h3 {
         width: max-content;
     }
 
+    .landscape {
+        width: 90%;
+
+        
+    }
+
 }
