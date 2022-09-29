@@ -103,14 +103,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
     justify-content: space-evenly;
+    padding: 30px;
+
 }
 
 .info2 p {
     font-size: 28px;
     font-weight: 200;
-    width: 80%;
+    width: 100%;
 }
 
 h1 {
@@ -180,7 +181,8 @@ h3 {
     width: 140px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
+   
     .navegació {
         display: none;
     }
@@ -203,6 +205,7 @@ h3 {
 
     .sect3 {
         height: fit-content;
+        margin: 0px;
     }
 
     .fotoK {
@@ -213,14 +216,9 @@ h3 {
         display: none;
     }
 
-    .info2 article{
-        width: max-content;
-    }
 
     .landscape {
         width: 90%;
-
-        
     }
 
 }
